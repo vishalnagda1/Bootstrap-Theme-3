@@ -19,26 +19,46 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Header Section -->
     <section class="section-head">
-      <section class="nav-section"></section>
+      <section class="nav-section" id="navSection">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bootStrapExample">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+              </button>
+              <a href="#navSection" class="navbar-brand">Start Bootstrap</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bootStrapExample">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="hidden"><a href=".pageTop"></a></li>
+                <li><a href="#portfolioSection">Portfolio</a></li>
+                <li><a href="#aboutSection">About</a></li>
+                <li><a href="#contactSection">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
       <!-- END Of nav-section -->
 
-      <section class="intro-section-"></section>
+      <section class="intro-section"></section>
       <!-- END Of into-section -->
     </section>
     <!-- END Of section-head -->
 
 
     <section class="section-body">
-      <section class="portfolio-section"></section>
+      <section class="portfolio-section" id="portfolioSection"></section>
       <!-- END Of portfolio-section -->
 
-      <section class="about-section"></section>
+      <section class="about-section" id="aboutSection"></section>
       <!-- END Of about-section -->
 
-      <section class="contact-section"></section>
+      <section class="contact-section" id="contactSection"></section>
       <!-- END Of contact-section -->
     </section>
     <!-- END Of section-body -->
