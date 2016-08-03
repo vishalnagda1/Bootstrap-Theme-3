@@ -4,7 +4,7 @@
   /* END Of nav-section */
 
   /* intro-section */
-  .intro-section {
+  .section-head .intro-section {
     padding-top: 200px;
     padding-bottom: 100px;
     background-color: #18bc9c;
@@ -50,22 +50,52 @@
 /* Body Section */
 
   /* portfolio-section */
-  .portfolio-section {
-    padding-top: 400px;
-    padding-bottom: 400px;
+  .section-body .portfolio-section {
+    padding-top: 83px;
+    padding-bottom: 100px;
+  }
+
+  .portfolio-section .col-sm-4 {
+    margin-bottom: 30px;
+  }
+
+  .portfolio-section .col-sm-4 img {
+    /*position: relative;*/
+  }
+
+  .portfolio-section .col-sm-4 i {
+    position: absolute;
+    font-weight: bold;
+    color: #FFFFFF;
+    z-index: 1;
   }
   /* END Of portfolio-section */
 
   /* about-section */
-  .about-section {
-    padding-top: 250px;
-    padding-bottom: 250px;
+  .section-body .about-section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    color: #FFFFFF;
     background-color: #18bc9c;
+  }
+
+  .about-section p {
+    font-size: 1.4em;
+  }
+
+  .about-section a {
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 1.45em;
+    line-height: 33px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
   }
   /* END Of about-section */
 
   /* contact-section */
-  .contact-section {
+  .section-body .contact-section {
     padding-top: 400px;
     padding-bottom: 400px;
   }
@@ -136,8 +166,17 @@
 
   hr.star-primary:after {
     color: #2c3e50;
-    background-color: #18bc9c;
+    background-color: #FFFFFF;
   }
   /* END Of star-light and star-primary CSS */
+
+
+
+  /* section-title CSS */
+  .section-title {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  /* END Of section-title CSS */
 
 /* END Of Common CSS For All Section */
