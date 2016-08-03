@@ -26,6 +26,21 @@
   .intro-section .intro-text span:last-child {
     font-size: 1.7em;
   }
+
+  @media (max-width: 768px) {
+    .intro-section {
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+
+    .intro-section .intro-text span:first-child {
+      font-size: 2em;
+    }
+
+    .intro-section .intro-text span:last-child {
+      font-size: 1.23em;
+    }
+  }
   /* END Of intro-section */
 
 /* END Of Header Section */
