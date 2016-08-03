@@ -6,7 +6,7 @@
   /* intro-section */
   .intro-section {
     padding-top: 200px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
     background-color: #18bc9c;
   }
 
@@ -14,9 +14,17 @@
     color: #FFFFFF;
   }
 
-  .intro-section .intro-text span {
-    font-weight: bold;
+  .intro-section .intro-text {
+    margin-top: 20px;
+  }
+
+  .intro-section .intro-text span:first-child {
     font-size: 4.75em;
+    font-weight: bold;
+  }
+
+  .intro-section .intro-text span:last-child {
+    font-size: 1.7em;
   }
   /* END Of intro-section */
 
@@ -71,3 +79,49 @@
   /* END foot-bar */
 
 /* END Of Foot Section */
+
+
+
+/* Common CSS For All Section */
+
+  /* star-light and star-primary CSS */
+  hr.star-light,
+  hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+  }
+
+  hr.star-light:after,
+  hr.star-primary:after {
+    content: "\2605";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-size: 2em;
+  }
+
+  hr.star-light {
+    border-color: #fff;
+  }
+
+  hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+  }
+
+  hr.star-primary {
+    border-color: #2c3e50;
+  }
+
+  hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #18bc9c;
+  }
+  /* END Of star-light and star-primary CSS */
+
+/* END Of Common CSS For All Section */
