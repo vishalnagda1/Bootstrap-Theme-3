@@ -59,8 +59,10 @@
     margin-bottom: 30px;
   }
 
-  .portfolio-section .col-sm-4 img {
-    /*position: relative;*/
+  @media (max-width: 768px) {
+    .portfolio-section .col-sm-4 img {
+      max-width: 350px;
+    }
   }
 
   .portfolio-section .col-sm-4 i {
@@ -91,6 +93,12 @@
     background-color: transparent;
     border: 2px solid white;
     border-radius: 6px;
+  }
+
+  .about-section a:hover {
+    background-color: #FFFFFF;
+    transition: 1s;
+    border: 2px solid white;
   }
   /* END Of about-section */
 
