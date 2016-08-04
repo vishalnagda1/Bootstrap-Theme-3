@@ -1,46 +1,76 @@
 /* Header Section */
 
   /* nav-section */
+    .section-head .navbar-default {
+      background-color: #2C3E50;
+      border-color: #2C3E50;
+      padding: 10px 0;
+    }
+
+    .nav-section .navbar-brand {
+      color: #FFFFFF;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+
+    .nav-section .collapse li > a {
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+
+    .nav-section .collapse .active > a {
+      color: #FFFFFF;
+      background-color: #18bc9c;
+    }
+
+    .nav-section .collapse .active > a:hover {
+      color: #FFFFFF;
+      background-color: #18bc9c;
+    }
+
+    .nav-section .collapse li > a:hover {
+      color: #18bc9c;
+    }
   /* END Of nav-section */
 
   /* intro-section */
-  .section-head .intro-section {
-    padding-top: 200px;
-    padding-bottom: 100px;
-    background-color: #18bc9c;
-  }
+    .section-head .intro-section {
+      padding-top: 200px;
+      padding-bottom: 100px;
+      background-color: #18bc9c;
+    }
 
-  .intro-section .row {
-    color: #FFFFFF;
-  }
+    .intro-section .row {
+      color: #FFFFFF;
+    }
 
-  .intro-section .intro-text {
-    margin-top: 20px;
-  }
-
-  .intro-section .intro-text span:first-child {
-    font-size: 4.75em;
-    font-weight: bold;
-  }
-
-  .intro-section .intro-text span:last-child {
-    font-size: 1.7em;
-  }
-
-  @media (max-width: 768px) {
-    .intro-section {
-      padding-top: 100px;
-      padding-bottom: 50px;
+    .intro-section .intro-text {
+      margin-top: 20px;
     }
 
     .intro-section .intro-text span:first-child {
-      font-size: 2em;
+      font-size: 4.75em;
+      font-weight: bold;
     }
 
     .intro-section .intro-text span:last-child {
-      font-size: 1.23em;
+      font-size: 1.7em;
     }
-  }
+
+    @media (max-width: 768px) {
+      .intro-section {
+        padding-top: 100px;
+        padding-bottom: 50px;
+      }
+
+      .intro-section .intro-text span:first-child {
+        font-size: 2em;
+      }
+
+      .intro-section .intro-text span:last-child {
+        font-size: 1.23em;
+      }
+    }
   /* END Of intro-section */
 
 /* END Of Header Section */
@@ -50,110 +80,110 @@
 /* Body Section */
 
   /* portfolio-section */
-  .section-body .portfolio-section {
-    padding-top: 83px;
-    padding-bottom: 100px;
-  }
-
-  .portfolio-section .col-sm-4 {
-    margin-bottom: 30px;
-  }
-
-  @media (max-width: 768px) {
-    .portfolio-section .col-sm-4 img {
-      max-width: 350px;
+    .section-body .portfolio-section {
+      padding-top: 83px;
+      padding-bottom: 100px;
     }
-  }
 
-  .portfolio-section .col-sm-4 i {
-    position: absolute;
-    font-weight: bold;
-    color: #FFFFFF;
-    z-index: 1;
-  }
+    .portfolio-section .col-sm-4 {
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .portfolio-section .col-sm-4 img {
+        max-width: 350px;
+      }
+    }
+
+    .portfolio-section .col-sm-4 i {
+      position: absolute;
+      font-weight: bold;
+      color: #FFFFFF;
+      z-index: 1;
+    }
   /* END Of portfolio-section */
 
   /* about-section */
-  .section-body .about-section {
-    padding-top: 80px;
-    padding-bottom: 100px;
-    color: #FFFFFF;
-    background-color: #18bc9c;
-  }
+    .section-body .about-section {
+      padding-top: 80px;
+      padding-bottom: 100px;
+      color: #FFFFFF;
+      background-color: #18bc9c;
+    }
 
-  .about-section p {
-    font-size: 1.4em;
-  }
+    .about-section p {
+      font-size: 1.4em;
+    }
 
-  .about-section a {
-    margin-top: 20px;
-    color: #FFFFFF;
-    font-size: 1.45em;
-    line-height: 33px;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 6px;
-  }
+    .about-section a {
+      margin-top: 20px;
+      color: #FFFFFF;
+      font-size: 1.45em;
+      line-height: 33px;
+      background-color: transparent;
+      border: 2px solid white;
+      border-radius: 6px;
+    }
 
-  .about-section a:hover {
-    background-color: #FFFFFF;
-    transition: 1s;
-    border: 2px solid white;
-  }
+    .about-section a:hover {
+      background-color: #FFFFFF;
+      transition: 1s;
+      border: 2px solid white;
+    }
   /* END Of about-section */
 
   /* contact-section */
-  .section-body .contact-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-
-  .contact-section .form-horizontal {
-    margin: 0 auto;
-    max-width: 65%;
-  }
-
-  @media (max-width: 1200px) {
-    .contact-section .form-horizontal {
-      max-width: 90%;
+    .section-body .contact-section {
+      padding-top: 80px;
+      padding-bottom: 80px;
     }
-  }
 
-  .contact-section .form-horizontal input,
-  .contact-section .form-horizontal textarea {
-    padding-right: 0;
-    padding-left: 20px;
-    border: none;
-    font-size: 1.5em;
-    box-shadow: none!important;
-  }
+    .contact-section .form-horizontal {
+      margin: 0 auto;
+      max-width: 65%;
+    }
 
-  .contact-section .col-first {
-    border-top: 1px solid #eee;
-  }
+    @media (max-width: 1200px) {
+      .contact-section .form-horizontal {
+        max-width: 90%;
+      }
+    }
 
-  .contact-section .col-xs-12 {
-    position: relative;
-    margin-bottom: 0;
-    padding-bottom: .4em;
-    padding-top: 1.4em;
-    border-bottom: 1px solid #eee;
-  }
+    .contact-section .form-horizontal input,
+    .contact-section .form-horizontal textarea {
+      padding-right: 0;
+      padding-left: 20px;
+      border: none;
+      font-size: 1.5em;
+      box-shadow: none!important;
+    }
 
-  .contact-section .col-last {
-    border-bottom: none;
-  }
+    .contact-section .col-first {
+      border-top: 1px solid #eee;
+    }
 
-  .contact-section .form-group button {
-    background-color: #18bc9c;
-    color: #FFFFFF;
-    font-size: 1.3em;
-    margin-left: 20px;
-  }
+    .contact-section .col-xs-12 {
+      position: relative;
+      margin-bottom: 0;
+      padding-bottom: .4em;
+      padding-top: 1.4em;
+      border-bottom: 1px solid #eee;
+    }
 
-  .contact-section .form-group button:hover {
-    background-color: #11866f;
-  }
+    .contact-section .col-last {
+      border-bottom: none;
+    }
+
+    .contact-section .form-group button {
+      background-color: #18bc9c;
+      color: #FFFFFF;
+      font-size: 1.3em;
+      margin-left: 20px;
+    }
+
+    .contact-section .form-group button:hover {
+      background-color: #11866f;
+    }
   /* END Of contact-section */
 
 /* END Of Body Section */
@@ -163,64 +193,64 @@
 /* Foot Section */
 
   /* foot-info-section */
-  .foot-info-section {
-    color: #FFFFFF;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    background-color: #2c3e50;
-  }
+    .foot-info-section {
+      color: #FFFFFF;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      background-color: #2c3e50;
+    }
 
-  .foot-info-section .col-md-4 {
-    margin-top: 50px;
-  }
+    .foot-info-section .col-md-4 {
+      margin-top: 50px;
+    }
 
-  .foot-info-section .col-md-4 h2 {
-    margin-bottom: 20px;
-    font-size: 1.7em;
-    font-weight: bold;
-  }
+    .foot-info-section .col-md-4 h2 {
+      margin-bottom: 20px;
+      font-size: 1.7em;
+      font-weight: bold;
+    }
 
-  .foot-info-section .lead {
-    font-size: 1.65em;
-  }
+    .foot-info-section .lead {
+      font-size: 1.65em;
+    }
 
-  .foot-info-section .lead a {
-    color: #18bc9c;
-    font-weight: bold;
-  }
+    .foot-info-section .lead a {
+      color: #18bc9c;
+      font-weight: bold;
+    }
 
-  .foot-info-section .social ul {
-    list-style-type: none;
-    display: inline-flex;
-    margin-top: 20px;
-    padding-left: 0;
-  }
+    .foot-info-section .social ul {
+      list-style-type: none;
+      display: inline-flex;
+      margin-top: 20px;
+      padding-left: 0;
+    }
 
-  .foot-info-section .social .btn {
-    background: transparent;
-    color: #FFFFFF;
-    font-size: 1.6em;
-    margin: 0px 5px;
-    border: 2px solid white;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-  }
+    .foot-info-section .social .btn {
+      background: transparent;
+      color: #FFFFFF;
+      font-size: 1.6em;
+      margin: 0px 5px;
+      border: 2px solid white;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+    }
 
-  .foot-info-section .social .btn:hover {
-    background-color: #FFFFFF;
-    transition: .6s;
-    color: #18bc9c;
-  }
+    .foot-info-section .social .btn:hover {
+      background-color: #FFFFFF;
+      transition: .6s;
+      color: #18bc9c;
+    }
   /* END Of foot-info-section */
 
   /* foot-bar */
-  .foot-bar {
-    color: #FFFFFF;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    background-color: #233140;
-  }
+    .foot-bar {
+      color: #FFFFFF;
+      padding-top: 25px;
+      padding-bottom: 15px;
+      background-color: #233140;
+    }
   /* END foot-bar */
 
 /* END Of Foot Section */
@@ -230,53 +260,53 @@
 /* Common CSS For All Section */
 
   /* star-light and star-primary CSS */
-  hr.star-light,
-  hr.star-primary {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-  }
+    hr.star-light,
+    hr.star-primary {
+      margin: 25px auto 30px;
+      padding: 0;
+      max-width: 250px;
+      border: 0;
+      border-top: solid 5px;
+      text-align: center;
+    }
 
-  hr.star-light:after,
-  hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-size: 2em;
-    font-family: FontAwesome;
-  }
+    hr.star-light:after,
+    hr.star-primary:after {
+      content: "\f005";
+      display: inline-block;
+      position: relative;
+      top: -.8em;
+      padding: 0 .25em;
+      font-size: 2em;
+      font-family: FontAwesome;
+    }
 
-  hr.star-light {
-    border-color: #fff;
-  }
+    hr.star-light {
+      border-color: #fff;
+    }
 
-  hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
-  }
+    hr.star-light:after {
+      color: #fff;
+      background-color: #18bc9c;
+    }
 
-  hr.star-primary {
-    border-color: #2c3e50;
-  }
+    hr.star-primary {
+      border-color: #2c3e50;
+    }
 
-  hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #FFFFFF;
-  }
+    hr.star-primary:after {
+      color: #2c3e50;
+      background-color: #FFFFFF;
+    }
   /* END Of star-light and star-primary CSS */
 
 
 
   /* section-title CSS */
-  .section-title {
-    font-size: 3em;
-    font-weight: bold;
-  }
+    .section-title {
+      font-size: 3em;
+      font-weight: bold;
+    }
   /* END Of section-title CSS */
 
 /* END Of Common CSS For All Section */
