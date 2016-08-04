@@ -104,8 +104,55 @@
 
   /* contact-section */
   .section-body .contact-section {
-    padding-top: 400px;
-    padding-bottom: 400px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .contact-section .form-horizontal {
+    margin: 0 auto;
+    max-width: 65%;
+  }
+
+  @media (max-width: 1200px) {
+    .contact-section .form-horizontal {
+      max-width: 90%;
+    }
+  }
+
+  .contact-section .form-horizontal input,
+  .contact-section .form-horizontal textarea {
+    padding-right: 0;
+    padding-left: 20px;
+    border: none;
+    font-size: 1.5em;
+    box-shadow: none!important;
+  }
+
+  .contact-section .col-first {
+    border-top: 1px solid #eee;
+  }
+
+  .contact-section .col-xs-12 {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .4em;
+    padding-top: 1.4em;
+    border-bottom: 1px solid #eee;
+  }
+
+  .contact-section .col-last {
+    border-bottom: none;
+  }
+
+  .contact-section .form-group button {
+    background-color: #18bc9c;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    margin-left: 20px;
+  }
+
+  .contact-section .form-group button:hover {
+    background-color: #11866f;
   }
   /* END Of contact-section */
 
