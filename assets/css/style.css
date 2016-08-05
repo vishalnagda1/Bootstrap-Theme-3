@@ -76,7 +76,6 @@
 /* END Of Header Section */
 
 
-
 /* Body Section */
 
   /* portfolio-section */
@@ -89,17 +88,47 @@
       margin-bottom: 30px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .portfolio-section .col-sm-4 img {
         max-width: 350px;
       }
     }
 
-    .portfolio-section .col-sm-4 i {
+    .portfolio-section .relative-img {
+      position: relative;
+      max-width: 350px;
+      margin: 0 auto;
+    }
+
+    .portfolio-section .absolute-icon {
       position: absolute;
-      font-weight: bold;
+      top: 0px;
       color: #FFFFFF;
-      z-index: 1;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+    }
+
+    .portfolio-section .relative-img div:hover {
+      background-color: rgba(24,188,156,.9);
+      opacity: 1;
+      transition: .5s;
+    }
+
+    .portfolio-section .absolute-icon i {
+      padding: 105px;
+    }
+
+    @media only screen and (min-width:992px) and (max-width: 1199px) {
+      .portfolio-section .absolute-icon i {
+        padding-top: 90px;
+      }
+    }
+
+    @media only screen and (min-width:768px) and (max-width: 991px) {
+      .portfolio-section .absolute-icon i {
+        padding: 60px 90px;
+      }
     }
   /* END Of portfolio-section */
 
