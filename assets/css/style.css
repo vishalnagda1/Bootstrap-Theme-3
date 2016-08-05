@@ -13,6 +13,16 @@
       font-size: 1.5em;
     }
 
+    .nav-section .navbar-header button {
+      color: white;
+      border: 2px solid white;
+    }
+
+    .nav-section .navbar-header button:hover,
+    .nav-section .navbar-header button:focus {
+      background-color: #18bc9c;
+    }
+
     .nav-section .collapse li > a {
       color: #FFFFFF;
       font-weight: bold;
