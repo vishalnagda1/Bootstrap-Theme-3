@@ -21,7 +21,7 @@
       }
 
       .nav-section .navbar-brand {
-        font-size: 1.2em!important;
+        font-size: 1.25em!important;
       }
 
       .nav-section .navbar-header button {
@@ -52,6 +52,7 @@
     .nav-section .collapse .active > a {
       color: #FFFFFF;
       background-color: #18bc9c;
+      border-radius: 4px;
     }
 
     .nav-section .collapse .active > a:hover {
@@ -88,10 +89,10 @@
       font-size: 1.7em;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .intro-section {
-        padding-top: 100px;
-        padding-bottom: 50px;
+        padding-top: 100px!important;
+        padding-bottom: 50px!important;
       }
 
       .intro-section .intro-text span:first-child {
@@ -103,10 +104,7 @@
       }
     }
   /* END Of intro-section */
-
 /* END Of Header Section */
-
-
 /* Body Section */
 
   /* portfolio-section */
@@ -122,6 +120,11 @@
     @media (max-width: 767px) {
       .portfolio-section .col-sm-4 img {
         max-width: 350px;
+      }
+
+      .section-body .portfolio-section {
+        padding-top: 55px;
+        padding-bottom: 60px;
       }
     }
 
@@ -190,6 +193,13 @@
       transition: 1s;
       border: 2px solid white;
     }
+
+    @media (max-width: 767px) {
+      .section-body .about-section {
+        padding-top: 60px;
+        padding-bottom: 70px;
+      }
+    }
   /* END Of about-section */
 
   /* contact-section */
@@ -244,12 +254,15 @@
     .contact-section .form-group button:hover {
       background-color: #11866f;
     }
+
+    @media (max-width: 767px) {
+      .section-body .contact-section {
+        padding-top: 50px;
+        padding-bottom: 60px;
+      }
+    }
   /* END Of contact-section */
-
 /* END Of Body Section */
-
-
-
 /* Foot Section */
 
   /* foot-info-section */
@@ -312,11 +325,7 @@
       background-color: #233140;
     }
   /* END foot-bar */
-
 /* END Of Foot Section */
-
-
-
 /* Common CSS For All Section */
 
   /* star-light and star-primary CSS */
@@ -368,5 +377,4 @@
       font-weight: bold;
     }
   /* END Of section-title CSS */
-
 /* END Of Common CSS For All Section */
