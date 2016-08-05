@@ -4,18 +4,39 @@
     .section-head .navbar-default {
       background-color: #2C3E50;
       border-color: #2C3E50;
-      padding: 10px 0;
+      padding: 24.7px 0;
+      transition: all 0.2s ease;
     }
 
     .nav-section .navbar-brand {
       color: #FFFFFF;
       font-weight: bold;
-      font-size: 1.5em;
+      font-size: 2em;
+      transition: all 0.2s ease;
+    }
+
+    @media (max-width: 767px) {
+      .section-head .navbar-default {
+        padding: 0px 0!important;
+      }
+
+      .nav-section .navbar-brand {
+        font-size: 1.2em!important;
+      }
+
+      .nav-section .navbar-header button {
+        border: 1px solid!important;
+        padding: 5px;
+      }
     }
 
     .nav-section .navbar-header button {
       color: white;
       border: 2px solid white;
+    }
+
+    .nav-section .navbar-header a:hover {
+      color: #FFFFFF;
     }
 
     .nav-section .navbar-header button:hover,
